@@ -28,5 +28,71 @@ A class can have only one destructor, and it cannot be overloaded.
 <img width="817" height="648" alt="image" src="https://github.com/user-attachments/assets/a04975cd-2117-4e62-8e75-c3f1c6ae351d" />
 
 ## Algorithms
+### Default Constructor
+1. Start
+
+2. Define a Car class with attributes: brand, model, purchase price, and expected selling price.
+
+3. Create a constructor to: Ask the user for brand, model, purchase price, and expected selling price.
+
+4. Store the entered values.
+
+5. Define a display() function to print all stored details.
+
+6. In main():Create an object c1 of Car and Call display() to show details.
+
+7. End
+### Parametrised Constructor
+1. Start
+
+2. Define a class Constructor with attributes: day, month, year.
+
+3. Create a constructor that accepts three parameters.
+
+4. Asks the user to enter date in dd/mm/yyyy format.
+
+5. Stores the input in day, month, year.
+
+6. Define show() function to print the date in dd/mm/yyyy format.
+
+7. In main():Create an object c1 of class Constructor and Call show() to display the date.
+
+8. End
+### Copy Constructor
+1. Start
+
+2. Define a class Student with attributes: name and age.
+
+3. Create a parameterized constructor to initialize name and age.
+
+4. Create a copy constructor that copies values of name and age from an existing object and prints “Copy constructor called!”
+
+5. Define display() function to print name and age.
+
+6. In main():Create object s1 with name "Ananya" and age 19.
+
+7. Create object s2 as a copy of s1 (calls copy constructor).
+
+8. Display details of both objects using display().
+
+9. End
+### Destructor
+1. Start
+
+2. Define a class Destruct with a static counter count.
+
+3. Create a constructor that: Increments count and prints number of objects created.
+
+4. Create a destructor that: Decrements count and prints number of objects destroyed.
+
+5. In main(): Create 5 objects (a, b, c, d, e).
+
+6. Observe constructor messages while creating.
+
+7. At program end, objects are destroyed automatically.
+
+8. Destructor messages display objects being destroyed.
+
+9. End
 ## Conclusion
 We learnt to implement constructors and destructors and their working. 
